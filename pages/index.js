@@ -1,65 +1,73 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Parabéns</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
+      <div className={styles.confetti}></div>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Parabéns João Luiz!!!</h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <img
+          width="100%"
+          height="250"
+          src="https://media.giphy.com/media/feio2yIUMtdqWjRiaF/giphy.gif"
+          alt="birthday"
+        />
+        <img
+          src="https://media.giphy.com/media/T8ZP9P7efQ8cE/giphy.gif"
+          alt="darwin"
+        />
+        <img
+          width="100%"
+          height="250"
+          src="https://media.giphy.com/media/kwCUIixcilSNi/giphy.gif"
+          alt="doggo"
+        />
+        <img
+          width="100%"
+          height="250"
+          src="https://media.giphy.com/media/9s55ZMp3uKXHin6cPP/giphy.gif"
+          alt="luna"
+        />
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <p>
+          Made with 💜 by
+          <a
+            href="https://github.com/hermeshcg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hermes
+          </a>
+        </p>
       </footer>
     </div>
-  )
+  );
 }
